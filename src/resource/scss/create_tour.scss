@@ -1,0 +1,106 @@
+.create-tour {
+    padding-top: 130px;
+    background-image: url("/image/web/create_tour.jpg");
+    background-size: cover;
+    opacity: 2;
+    padding-bottom: 150px;
+}
+.create-tour form{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 50px 40px 100px 40px;
+    opacity: 0.9;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.03);
+   
+}
+.create-tour form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    
+}
+.create-tour form>div{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+.create-tour form button{
+    margin-top: 30px;
+    background-color: #3fd0d4;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    opacity: 2;
+    font-size: 1.3rem;
+}
+.create-tour form textarea{
+    resize: none;
+   height: 100px;
+}
+
+.create-tour form  input{
+    position: relative;
+}
+.create-tour form  i{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: red;
+    display: none;
+}
+.create-tour form div .d-e{
+   margin-top: 3px;
+    font-size: 14px;
+    color: red;
+    margin-left: 5px;
+    display: none;
+}
+.create-tour form  .error .d-e{
+    display: block;
+}
+.create-tour form  .error i{
+    display: block;
+}
+.create-tour form .error input{
+    border: 1px solid red;
+}
+.create-tour .plan{
+    display: none;
+    border: 1px solid #616060;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.create-tour .plan p{
+    margin-top: 20px;
+    width: 100%;
+}
+.create-tour .show{
+    display: flex;
+}
+.create-tour .plan .plan-day{
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    width: 48%;
+    padding: 0 10px 10px 10px;
+    margin: 5px;
+}
+.create-tour .plan .plan-day .show_plan{
+    display: block;
+}
+.create-tour .plan .plan-day p{
+    font-size: 14px;
+    margin:10px 0;
+}
+.create-tour .plan .plan-day input{
+    font-size: 13px;
+}
+.create-tour .plan .plan-day label{
+    font-size: 13px;
+}

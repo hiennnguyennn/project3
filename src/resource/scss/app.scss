@@ -1,0 +1,52 @@
+
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 0.01em;
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar{
+    padding: 0 ;
+}
+a{
+    cursor: pointer;
+    color: black;
+}
+h3{
+    font-family: 'Satisfy', cursive;
+    color: #3fd0d4;
+    font-size: 2.2rem;
+    line-height: 1.8em;
+    margin: 0px;
+}
+h1{
+    margin: 0;
+        font-size: 65px;font-weight: 600;
+        letter-spacing: -0.05em;
+        line-height: 1em;
+
+}
+h5{
+    font-size: 18px;
+    line-height: calc(4rem/3);
+    font-weight: 600;
+}
+h4{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+}
+@import 'header';
+@import 'home';
+@import 'login';
+@import 'register';
+@import 'footer';
+@import 'create_country';
+@import 'create_tour';
+@import 'destination_info';
+@import 'tour_info';
+@import 'destination_list';
+@import 'tour_list';

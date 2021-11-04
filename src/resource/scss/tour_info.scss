@@ -1,0 +1,285 @@
+.showTour{
+    padding-top: 130px;
+    overflow: hidden;
+    color: #505050;
+}
+.showTour p{
+  margin: 0;
+  color: #505050;
+}
+.showTour .slide-container{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 520px;
+}
+.showTour .slider{
+    width: 100%;
+    height: 100%;
+    //  background-image: url('/image/web/mountain.png');
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    filter: contrast(120%) brightness(70%);
+   
+}
+.showTour .slide-container>div:last-child{
+  position: absolute;
+  
+  top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   opacity: 2;
+   filter: brightness(100%);
+}
+.showTour .slide-container h3{
+    color: white;
+    opacity: 2;
+}
+.showTour .slide-container h1{
+   display: block;
+   letter-spacing: 1.1rem;
+   color: white;
+}
+.showTour .body{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.showTour .body .body-container{
+    width: 85%;
+    background-color: white;
+  z-index: 1;
+  box-shadow: 0 3px 20px 5px rgba(0, 0, 0, 0.03);
+ // padding: 50px 50px 130px 50px;
+    clear: both;
+    margin-top: -80px;
+    //position: relative;
+}
+.showTour .body-container  h3{
+    color: black;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2em;
+    letter-spacing: -0.05em;
+    margin-right: 20px;
+ }
+
+.showTour .body-container .body-header {
+    //position: absolute;
+    list-style-type: none;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: #f8f8f8;
+    width: 100%;
+    margin-top: 0px;
+}
+.showTour .body-container .body-header ul .col{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.showTour .body-container .content .info{
+    display: flex;
+}
+.showTour .body-container  ul li a{
+    width: 100%;
+    height: 100%;
+   display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+.showTour .body-container i{margin-right: 10px;}
+.showTour .body-container  ul .col:hover{
+    opacity: 1;
+    background-color: white;
+    
+}
+.showTour .body-container .content{
+    padding: 50px 25px;
+}
+.showTour .body-container .content .content-info{
+   width: 75%;
+   display: none;
+   padding: 0 25px;
+}
+.showTour .body-container .content .plan-info{
+  width: 75%;
+  display: none;
+  padding: 0 25px;
+}
+.showTour .body-container .content .info .info-item{
+    margin-top: 30px;
+}
+.showTour .body-container .content .info .info-header{
+   display: flex;
+ }
+ .showTour .body-container .content .info .info-header h5{
+     margin: 0;
+   margin-right: 10px;
+   color: #3fd0d4;
+   font-weight: 600;
+  }
+ .showTour .body-container .content .info .info-header div{
+   align-items: center;
+    display: flex;
+  }
+  
+   .showTour .body-container .content .info .content-info .info-sold-age{
+       display: flex;
+       gap: 20px;
+   }
+   .showTour .body-container .content .info .content-info .info-sold-age span{
+   padding: 8px 30px;
+   background-color: #3fd0d4;
+   color: white;
+}
+.showTour .body-container .content .info .content-info .info-body>div{
+    margin-bottom: 25px;
+ }
+
+ .showTour .body-container .content .info .content-info .info-body .col-5{
+     font-weight: 600;
+    width: 30%;
+ }
+ .showTour .body-container .content .info .content-info .info-body ul{
+    list-style-type: none;
+}
+.showTour .body-container .content .info .content-info .info-body ul li{
+    margin-bottom: 5px;
+}
+.showTour .body-container .content .info .content-info .info-img p{
+    margin: 12px 0 42px 0;
+}
+.showTour .body-container .content .info .content-info .info-img div{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.showTour .body-container .content .info .content-info .info-img img{
+    width: 100%;
+    height: 250px;
+ }
+ .showTour .body-container .content .info .book{
+    width: calc(25% - 37px);
+  
+}
+ .showTour .body-container .content .info .book-main{
+    width: 100%;
+   padding: 30px 25px;
+   height: auto;
+   background-color: #3fd0d4;
+   color: white;
+   margin-right: 25px;
+ }
+ .showTour .body-container .content .info .book-main h4{
+    font-weight: 600;
+  }
+ .showTour .body-container .content .info .book-main p{
+    color: white;
+    margin: 6px 0 23px 0;
+  }
+  .showTour .body-container .content .info .book #book-tour input{
+    background-color: #6FDCDF;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 16px 24px 16px 43px;
+    margin-bottom: 5px;
+  }
+  .showTour .body-container .content .info .book #book-tour input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  .showTour .body-container .content .info .book #book-tour input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  .showTour .body-container .content .info .book #book-tour input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+  .showTour .body-container .content .info .book-main #book-tour button{
+    width: 100%;
+    color: black;
+    background-color: white;
+    padding: 25px 5px;
+    border: none;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .showTour .body-container .content .info .book-main #book-tour button i{
+    color: red;
+    display: none;
+  }
+  .showTour .body-container .content .info .book-main #book-tour .err{
+    color: red;
+    display: none;
+  }
+  .showTour .body-container .content .info .book-main #book-tour .active{
+    display: inline-block;
+  }
+  .showTour .body-container .content .plan-info h3{
+    margin: 24px 0 57px 0;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-header{
+    display: flex;
+    margin-bottom: 9px;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-header span{
+    background-color: #3fd0d4;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding:15px 20px;
+    margin-right: 25px;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-header h4{
+    vertical-align: middle;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-body{
+    padding: 4px 0 49px 76px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-body p{
+   width: 100%;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-body>div{
+    margin-top: 30px;
+    margin-right: 150px;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-body ul{
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .showTour .body-container .content .plan-info .plan .plan-body h5{
+    font-weight: 600;
+  }
+  .showTour .body-container .content .plan-info .plan .line{
+    height: 0px;
+    border-top: 2px solid #d5d5d5;
+    margin-bottom: 10px;
+  }
+  .showTour .body-container .content .active{
+    display: block;
+  }
+  .showTour .body-container .body-header .h-active{
+    background-color: white;
+  }

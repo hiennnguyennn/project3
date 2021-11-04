@@ -1,0 +1,71 @@
+.create-country {
+    padding-top: 130px;
+    background-image: url("/image/web/create_country1.jpg");
+    background-size: cover;
+    opacity: 2;
+    padding-bottom: 150px;
+}
+.create-country form{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 50px 40px 100px 40px;
+    opacity: 0.9;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.03);
+   
+}
+.create-country form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    
+}
+.create-country form>div{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+.create-country form button{
+    margin-top: 30px;
+    background-color: #3fd0d4;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    opacity: 2;
+    font-size: 1.3rem;
+}
+.create-country form textarea{
+    resize: none;
+   height: 100px;
+}
+
+.create-country form  input{
+    position: relative;
+}
+.create-country form  i{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: red;
+    display: none;
+}
+.create-country form div .d-e{
+   margin-top: 3px;
+    font-size: 14px;
+    color: red;
+    margin-left: 5px;
+    display: none;
+}
+.create-country form  .error .d-e{
+    display: block;
+}
+.create-country form  .error i{
+    display: block;
+}
+.create-country form .error input{
+    border: 1px solid red;
+}
